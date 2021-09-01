@@ -12,16 +12,20 @@ public class CalculateGrade {
 	} 
 	public char calculate() { 
 		String grade; 
+	
 	if(score >= 80) {
-		grade = 'A'; 
+		grade = "A"; 
+	}else if(score >= 75) { 
+		grade = "B"; 
 	}else if(score >= 70) { 
-		grade = 'B'; 
+		grade = "B+"; 
 	}else if(score >= 60) { 
-		grade = 'C'; 
+		grade = "C"; 
 	}else if(score >= 50) { 
-		grade = 'D';
+		grade = "D";
 	}else{ 
-		grade = 'F'; } 
+		grade = "F"; } 
+	
 	return grade; 
 	} 
 }
