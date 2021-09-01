@@ -10,7 +10,7 @@ public class CalculateGrade {
 	public void setScore(int score) { 
 		this.score = score; 
 	} 
-	public char calculate() { 
+	public String calculate() { 
 		String grade; 
 	
 	if(score >= 80) {

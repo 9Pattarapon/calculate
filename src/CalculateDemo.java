@@ -6,6 +6,6 @@ public class CalculateDemo {
         System.out.print("Input Score ");
         int score = in.nextInt();
         CalculateGrade c = new CalculateGrade(score);
-        System.out.println("grade "+c.calcuate());
+        System.out.println("grade "+c.calculate());
     }
 }
