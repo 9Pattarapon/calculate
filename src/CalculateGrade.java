@@ -11,7 +11,7 @@ public class CalculateGrade {
 		this.score = score; 
 	} 
 	public char calculate() { 
-		char grade; 
+		String grade; 
 	if(score >= 80) {
 		grade = 'A'; 
 	}else if(score >= 70) { 
